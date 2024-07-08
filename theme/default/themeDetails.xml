@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rainbowTheme compatibility="1.0" basename="tWeb" app="PDF Studio Tools" url="http://www.kovatz.com/">
+    <themeDetails>
+        <name>CT Theme</name>
+        <themeBaseName>faster-theme</themeBaseName>
+        <description>Default template for Faster Seo Tools</description>
+        <version>1.0</version>
+        <author>Asif</author>
+        <authorEmail>codefirmpk@gmail.com</authorEmail>
+        <authorWebsite>http://www.kovatz.com/</authorWebsite>
+        <copyright>Copyright &#169; 2024 KOVATZ</copyright>
+        <preview>img/preview.png</preview>
+        <builder>builder/client/default/aqua-theme</builder>
+    </themeDetails>
+</rainbowTheme>

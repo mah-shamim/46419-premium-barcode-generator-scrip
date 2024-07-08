@@ -1,0 +1,92 @@
+.vhCenter{
+    margin: auto; 
+    width: 50%; 
+    padding: 10px; 
+    text-align: center;
+}
+.newCenter{
+    margin: auto; 
+    width: 50%; 
+    padding: 10px; 
+}
+.alert-danger{
+    color:#a94442 !important;
+    background-color:#f2dede !important;
+    border-color:#ebccd1 !important;
+}
+.alert-warning{
+    color:#8a6d3b !important;
+    background-color:#fcf8e3 !important;
+    border-color:#faebcc !important;
+}
+.alert-success{
+    background-color:#dff0d8 !important;
+    border-color:#d6e9c6 !important;
+    color:#3c763d !important;
+}
+.author{
+    margin: 0 0 -20px;
+}
+.themePanel {
+    border: 1px solid #ccc;
+}
+.themePanelBody{
+    padding: 0px;
+}
+.screenPreview{
+    height: 200px;
+    width: 100%;
+}
+.profile-user-img {
+    border: 3px solid #d2d6de;
+    margin: 0 auto;
+    padding: 3px;
+    width: 100px;
+}
+.list-group-unbordered > .list-group-item {
+    border-left: 0 none;
+    border-radius: 0;
+    border-right: 0 none;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.checkbox label, .radio label {
+    padding-left: 0 !important;
+}
+.icheckbox_square-blue{
+    margin-right: 8px !important;
+}
+.pagesWell {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 7px;
+    min-height: 20px;
+    padding: 5px;
+}
+.b16{
+    font-size: 16px;
+}
+.visitorsTable{
+    line-height: 1.5;
+}
+.boxlink{
+    margin-right: 6px;
+}
+.customBox .box-title {
+    font-size: 15px;
+}
+.customBox .box-body {
+    border-top: 1px solid #eee;
+    padding: 10px;
+}
+.customBox .box-tools {
+    position: relative;
+    right: 10px;
+    top: inherit;
+}
+.inputTextArea{
+    height: 34px !important;
+}

@@ -1,0 +1,7 @@
+# Faster Seo Tools - PHP Script
+
+User-agent: *
+Disallow: /admin/
+Disallow: /core/
+Disallow: /resources/
+Disallow: /uploads/

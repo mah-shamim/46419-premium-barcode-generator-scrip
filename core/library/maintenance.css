@@ -1,0 +1,13 @@
+html,body{margin:0;padding:0;}
+body{width:100%;height:100%;color:#000;font-family:Arial,Helvetica,Sans-serif;font-size:12px;font-style:normal;font-weight:normal;line-height:16px;text-align:left;background:#d8d8ce;}
+.clear{clear:both;line-height:0;font-size:0;margin:0;padding:0;overflow:hidden;}
+#wrapper{margin:100px auto;padding:15px 0 0;width:500px;background:#fff;}
+#container{width:500px;}
+#imageBox{margin: 0 auto; width: 83px; height: 76px;}
+#content_container{width:480px;margin-top:50px;}
+#message_1{margin:10px 0 50px 0;padding:0;color:#EE3424;font-size:18px;font-style:normal;font-weight:bold;line-height:22px;text-align:center;}
+#message_2{margin:15px;padding:10px;width:445px;color:#7c7c7c;font-size:14px;font-style:normal;font-weight:normal;line-height:22px;text-align:center;border:1px solid #ebebeb;background:#f5f5f5;}
+#footer_container{padding:10px;width:480px;height:26px;color:#fff;font-size:11px;font-style:normal;font-weight:normal;line-height:24px;background:#7f8c8d;}
+#footer_container ul{margin:0;padding:0;}
+#footer_container ul li{list-style-type:none;}
+#footer_container a{text-decoration:none;border:0;}

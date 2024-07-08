@@ -1,0 +1,39 @@
+Options -Indexes
+RewriteEngine on
+
+<FilesMatch "\.(inc|sql|bak|dat|ini|tdata|sdata|addonpk)$">
+Deny from all
+</FilesMatch>
+
+<IfModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{THE_REQUEST} ^.*/index\.php 
+ RewriteRule ^(.*)index.php$ /$1 [R=301,L] 
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^admin/(.*)$ admin/index.php?route=$1 [L] 
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^twitter/login(.*)$ index.php?route=twitter/login [L,QSA]
+ RewriteRule ^twitter-card-generator$ index.php?route=twitter-card-generator [L,QSA]
+ RewriteRule ^twitter-graph-checker$ index.php?route=twitter-graph-checker [L,QSA]
+ RewriteRule ^twitter-graph-checker/output$ index.php?route=twitter-graph-checker/output [L,QSA]
+ RewriteRule ^twitter(.*)$ index.php?route=twitter [L,QSA]  
+</IfModule>
+
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule ^(.*)$ index.php?route=$1 [L] 
+</IfModule>
